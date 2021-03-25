@@ -9,7 +9,10 @@
 [branch]
 	# Show most recently changed branches first.
 	sort = -committerdate
-        
+[alias]
+	undo-commit = reset --soft HEAD^
+
+
 # URL shorthands
 [url "git@github.com:"]
 

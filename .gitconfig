@@ -6,3 +6,13 @@
         prompt = false
 [merge]
         conflictstyle = diff3
+[branch]
+	# Show most recently changed branches first.
+	sort = -committerdate
+        
+# URL shorthands
+[url "git@github.com:"]
+
+	insteadOf = "gh:"
+	pushInsteadOf = "github:"
+	pushInsteadOf = "git://github.com/"

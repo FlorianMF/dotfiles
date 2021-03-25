@@ -1,0 +1,8 @@
+[init]
+        defaultBranch = main
+[diff]
+        tool = meld
+[difftool]
+        prompt = false
+[merge]
+        conflictstyle = diff3

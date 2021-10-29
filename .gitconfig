@@ -11,7 +11,7 @@
 	sort = -committerdate
 [alias]
 	undo-commit = reset --soft HEAD^
-	deleted-branches = branch -vv | grep ': gone]' | awk '{print }'
+	deleted-branches = branch -vv | grep ': gone]' | awk '{print $1}'
 
 # URL shorthands
 [url "git@github.com:"]
